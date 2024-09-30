@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
 }
 
 ul {
@@ -21,10 +22,88 @@ a {
     text-decoration: none;
 }
 
+button {
+    all: unset;
+}
+
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
     flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 124px;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.nav a,
+.title-sub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 124px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-right {
+    background-color: darkgrey;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-left button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+}
